@@ -1,0 +1,41 @@
+<html><body><h1>Linux Server Log Report</h1><p>Generated: 2026-03-12 21:18:45.776457</p><h2>/var/log/messages</h2><pre>Mar 12 21:03:41 localhost systemd[1]: fprintd.service: Deactivated successfully.
+</pre>Mar 12 21:04:14 localhost NetworkManager[1006]: <info>  [1773342254.4970] dhcp4 (ens160): state changed new lease, address=192.168.136.128
+</pre>Mar 12 21:04:14 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+</pre>Mar 12 21:04:15 localhost systemd[1]: Starting dnf makecache...
+</pre>Mar 12 21:04:16 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+</pre>Mar 12 21:04:27 localhost systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+</pre>Mar 12 21:04:27 localhost systemd[1]: NetworkManager-dispatcher.service: Consumed 1.361s CPU time.
+</pre>Mar 12 21:04:34 localhost dnf[4108]: Metadata cache refreshed recently.
+</pre>Mar 12 21:04:34 localhost systemd[1]: dnf-makecache.service: Deactivated successfully.
+</pre>Mar 12 21:04:34 localhost systemd[1]: Finished dnf makecache.
+</pre>Mar 12 21:04:34 localhost systemd[1]: dnf-makecache.service: Consumed 19.015s CPU time.
+</pre>Mar 12 21:06:17 localhost cupsd[1026]: REQUEST localhost - - "POST / HTTP/1.1" 200 186 Renew-Subscription successful-ok
+</pre>Mar 12 21:10:14 localhost systemd[1]: Starting Fingerprint Authentication Daemon...
+</pre>Mar 12 21:10:14 localhost systemd[1]: Started Fingerprint Authentication Daemon.
+</pre>Mar 12 21:10:22 localhost NetworkManager[1006]: <info>  [1773342622.4712] agent-manager: agent[1e3e2369eeeb3be5,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+</pre>Mar 12 21:10:44 localhost systemd[1]: fprintd.service: Deactivated successfully.
+</pre>Mar 12 21:15:22 localhost systemd[1]: Starting Fingerprint Authentication Daemon...
+</pre>Mar 12 21:15:22 localhost systemd[1]: Started Fingerprint Authentication Daemon.
+</pre>Mar 12 21:15:28 localhost NetworkManager[1006]: <info>  [1773342928.8268] agent-manager: agent[b19b9041fa2e1260,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+</pre>Mar 12 21:15:51 localhost systemd[1]: fprintd.service: Deactivated successfully.
+</pre><p>Log not found: /var/log/messages</p></body></html><h2>/var/log/secure</h2><pre>Mar 12 20:07:39 localhost gdm-password][2094]: pam_unix(gdm-password:session): session opened for user tsepang(uid=1000) by tsepang(uid=0)
+</pre>Mar 12 20:07:39 localhost gdm-password][2094]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+</pre>Mar 12 20:07:48 localhost polkitd[796]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+</pre>Mar 12 20:07:50 localhost gdm-launch-environment][1155]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+</pre>Mar 12 20:07:50 localhost polkitd[796]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+</pre>Mar 12 20:09:52 localhost su[2933]: pam_unix(su-l:session): session opened for user root(uid=0) by tsepang(uid=1000)
+</pre>Mar 12 20:11:06 localhost sudo[3657]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/dnf install python3 git vim wget -y
+</pre>Mar 12 20:11:06 localhost sudo[3657]: pam_unix(sudo:session): session opened for user root(uid=0) by tsepang(uid=0)
+</pre>Mar 12 20:11:07 localhost sudo[3657]: pam_unix(sudo:session): session closed for user root
+</pre>Mar 12 20:11:57 localhost sudo[3672]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/dnf install python3 git vim wget -y
+</pre>Mar 12 20:11:57 localhost sudo[3672]: pam_unix(sudo:session): session opened for user root(uid=0) by tsepang(uid=0)
+</pre>Mar 12 20:11:58 localhost sudo[3672]: pam_unix(sudo:session): session closed for user root
+</pre>Mar 12 20:13:49 localhost gdm-password][3737]: gkr-pam: unlocked login keyring
+</pre>Mar 12 20:21:16 localhost gdm-password][3855]: gkr-pam: unlocked login keyring
+</pre>Mar 12 20:35:10 localhost gdm-password][3916]: gkr-pam: unlocked login keyring
+</pre>Mar 12 20:48:09 localhost gdm-password][3977]: gkr-pam: unlocked login keyring
+</pre>Mar 12 20:58:10 localhost gdm-password][4030]: gkr-pam: unlocked login keyring
+</pre>Mar 12 21:03:17 localhost gdm-password][4079]: gkr-pam: unlocked login keyring
+</pre>Mar 12 21:10:21 localhost gdm-password][4153]: gkr-pam: unlocked login keyring
+</pre>Mar 12 21:15:28 localhost gdm-password][4189]: gkr-pam: unlocked login keyring
+</pre><p>Log not found: /var/log/secure</p></body></html>
